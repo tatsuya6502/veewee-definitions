@@ -17,8 +17,8 @@ Veewee::Session.declare({
   :kickstart_timeout => 10000,
   :kickstart_file => "ks.cfg",
   :ssh_login_timeout => "10000",
-  :ssh_user => "veewee",
-  :ssh_password => "veewee",
+  :ssh_user => "vagrant",
+  :ssh_password => "vagrant",
   :ssh_key => "",
   :ssh_host_port => "7222",
   :ssh_guest_port => "22",
@@ -26,7 +26,6 @@ Veewee::Session.declare({
   :shutdown_cmd => "/sbin/halt -h -p",
   :postinstall_files => [
     "base.sh",
-    "ssh.sh",
     "ruby.sh",
     "chef.sh",
     "puppet.sh",

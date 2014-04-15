@@ -3,5 +3,5 @@
 # Requires
 #   pacman.sh
 
-pacman -S nfs-utils
+pacman -S --noconfirm nfs-utils
 systemctl enable rpc-statd.service

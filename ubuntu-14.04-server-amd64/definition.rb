@@ -5,9 +5,9 @@ Veewee::Session.declare({
   :disk_format => 'VDI',
   :hostiocache => 'off',
   :os_type_id => 'Ubuntu_64',
-  :iso_file => "ubuntu-14.04-beta2-server-amd64.iso",
+  :iso_file => "ubuntu-14.04-server-amd64.iso",
   :iso_src => "",
-  :iso_md5 => "435d1e7d8425ec7332ceaeb0d7f04664",
+  :iso_md5 => "01545fa976c8367b4f0d59169ac4866c",
   :iso_download_timeout => "1000",
   :boot_wait => "4",
   :boot_cmd_sequence => [
